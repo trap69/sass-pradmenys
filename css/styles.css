@@ -1,0 +1,43 @@
+/*Colors*/
+.button, .container nav li {
+  border-radius: 10px;
+  width: 250px;
+  background: #ff00f5;
+  border: 1px solid #ffa8fc; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fcba03; }
+  .container nav {
+    background-color: #ffa8fc; }
+    .container nav li {
+      display: inline-block; }
+      .container nav li a {
+        color: #a65ba3;
+        text-decoration: none; }
+        .container nav li a:hover {
+          color: #ff00f5; }
+
+nav ul {
+  padding: 50px; }
+  nav ul img {
+    border-radius: 50px;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    text-align: left;
+    float: left; }
+
+.main {
+  background-color: #fcba03; }
+
+h1 {
+  text-align: center; }
+
+nav ul {
+  align-content: center;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */

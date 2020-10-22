@@ -1,0 +1,48 @@
+@import 'var';
+@import 'components';
+@import 'mixins';
+@import 'each';
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: $containerBG;
+	nav{
+		background-color:$pink;
+		li{
+			display: inline-block;
+			@extend .button;
+			a{
+				color: $darkpink;
+				text-decoration: none;
+				&:hover{
+					color:$hotpink;
+				}
+			}
+		}
+	}
+}
+
+nav ul {
+	padding: 50px;
+
+
+	img{ 
+		@include round-block(50px);
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  width: 33%;
+  text-align: left;
+  float: left;
+    }
+ }
+.main {
+	background-color: $containerBG;
+}
+h1 {
+		text-align: center;
+}	
+nav ul {
+	align-content: center;
+	margin: 0 auto;
+}
